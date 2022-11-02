@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Me"
+title: ""
 ---
 
 I am preparing myself with a broad set of tools, and I am being aware of all the ways things are changing as I move through the world and the world changes around me. I am seeking opportunities to deploy the tools that I have accumulated, while simultaneously creating new and efficient tools.
