@@ -1,9 +1,11 @@
 ---
 layout: page
-title: 
+title: CV and Resume
 ---
 
-I provide you with two versions of my resume:
+I hope the title is self-explanatory.
 
-1. Online version that can be found [here](https://raj-ch017.github.io/online-resume/)
-2. Soft copy version that can be found [here](rajdeep_chakraborty_cv_nov2022.pdf)
+- If you are looking for my most recent resume, you can find it [here](https://raj-ch017.github.io/online-resume/).
+
+- If you want a concise version of my resume, you can find it [here](rajdeep_chakraborty_cv_nov2022.pdf).
+
