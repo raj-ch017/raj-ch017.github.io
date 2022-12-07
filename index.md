@@ -3,6 +3,14 @@ layout: page
 title: ""
 ---
 
-I am preparing myself with a broad set of tools, and I am being aware of all the ways things are changing as I move through the world and the world changes around me. I am seeking opportunities to deploy the tools that I have accumulated, while simultaneously creating new and efficient tools.
+Well, hello there! Welcome to my website. 
 
-My goal is to be part of a community that's engaged in solving real-world problems, adding to the existing body of knowledge, and pushing its boundaries, a community whose members are driven to have an impact that concerns the survival and betterment of all species.
+Hi, I am Rajdeep Chakraborty. I am an avid learner who is enthusiastic about things that relate to the experience of human beings.
+
+Here is a guide to help you find your way around here:
+
+  - If you want to cut to the chase and go over my resume, you can check out ‘CV’. 
+  - If you are interested in examining my academic credentials, you can explore ‘Coursework’.
+  - Are you looking for examples of hands-on experience? ‘Projects’ is the place for you. 
+
+You will find the links to my Mail, Github profile and LinkedIn account in the website footer. 
