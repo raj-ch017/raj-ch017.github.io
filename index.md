@@ -3,14 +3,16 @@ layout: page
 title: ""
 ---
 
-Well, hello there! Welcome to my website. 
+Greetings! Welcome to my website.
 
-Hi, I am Rajdeep Chakraborty. I am an avid learner who is enthusiastic about things that relate to the experience of human beings.
+My name is Rajdeep Chakraborty, and I am dedicated to exploring subjects related to human experience. As a committed learner, I have created this website to showcase my academic and practical journey.
 
-Here is a guide to help you find your way around here:
+Here's a quick guide to navigate through my website:
 
-  - If you want to cut to the chase and go over my resume, you can check out ‘CV’. 
-  - If you are interested in examining my academic credentials, you can explore ‘Coursework’.
-  - Are you looking for examples of hands-on experience? ‘Projects’ is the place for you. 
+* If you want to review my professional experience, you can find my resume under the 'CV' section. 
+* To explore my academic background, check out the 'Coursework' section. 
+* To glimpse my practical experience, visit the 'Projects' section. 
 
-You will find the links to my Mail, Github profile and LinkedIn account in the website footer. 
+Lastly, links to my email, Github profile, and LinkedIn account are in the website footer.
+
+Thank you for visiting my website, and I hope you find it informative and engaging.
