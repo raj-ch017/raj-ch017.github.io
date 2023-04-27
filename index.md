@@ -5,7 +5,7 @@ title: ""
 
 Greetings! Welcome to my website.
 
-My name is Rajdeep Chakraborty, and I am dedicated to exploring subjects related to human experience. As a committed learner, I have created this website to showcase my academic and practical journey.
+I am Rajdeep Chakraborty, and this website is a hub for you to learn about my projects and academic journey.
 
 Here's a quick guide to navigate through my website:
 
