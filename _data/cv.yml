@@ -7,13 +7,12 @@
       value: Research Assistant
     - name: Email
       value: rajdeep.ch138@gmail.com
-    - name: Github
-      value:
-    - name: LinkedIn
-      value:
-    - name: Summary
-      value: 
-
+    # - name: Github
+    #   value: 
+    # - name: LinkedIn
+    #   value: 
+    # - name: Summary
+    #   value: 
 
 - title: Education
   type: time_table
@@ -28,7 +27,6 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-
 
 - title: Experience
   type: time_table
@@ -45,43 +43,42 @@
         - title: Project 2: The EW thing
           contents:
             - did fun stuff
-            - involved lot of coding            
-      - title: Technical Editor
-        institution: Packt Publishing Private Limited
-        year: Oct 23 - Jun 24
-        description:
-          - worked with authors
-          - problem-solved a lot
-      - title: Online Mathematics Tutor
-        institution: Focus Edumatics Private Limited
-        year: Aug 22 - May 24
-
+            - involved lot of coding
+    - title: Technical Editor
+      institution: Packt Publishing Private Limited
+      year: Oct 23 - Jun 24
+      description:
+        - worked with authors
+        - problem-solved a lot
+    - title: Online Mathematics Tutor
+      institution: Focus Edumatics Private Limited
+      year: Aug 22 - May 24
+      description:
+        - taught math to students
 
 - title: Skills
   type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      
+    - title: Web Development
+      items:
+        - <a href="https://github.com/alshedivat/al-folio">al-folio</a>
 
 - title: Volunteering and Extracurricular
   type: time_table
   contents:
     - title: Department Outreach
-    - year: Sep 24 - Dec 24
-    description:
-      - title: introduced neuroscience to students
-
-
-
+      year: Sep 24 - Dec 24
+      description:
+        - title: introduced neuroscience to students
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Topic 1
       items:
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Topic 2
       items:
         - Description 1.
         - Description 2.
