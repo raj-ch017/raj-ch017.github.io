@@ -45,18 +45,16 @@
         - title: Project 2: The EW thing
           contents:
             - did fun stuff
-            - involved lot of coding
-            
-    - title: Technical Editor
-      institution: Packt Publishing Private Limited
-      year: Oct 23 - Jun 24
-      description:
-        - worked with authors
-        - problem-solved a lot
-
-    - title: Online Mathematics Tutor
-      institution: Focus Edumatics Private Limited
-      year: Aug 22 - May 24
+            - involved lot of coding            
+      - title: Technical Editor
+        institution: Packt Publishing Private Limited
+        year: Oct 23 - Jun 24
+        description:
+          - worked with authors
+          - problem-solved a lot
+      - title: Online Mathematics Tutor
+        institution: Focus Edumatics Private Limited
+        year: Aug 22 - May 24
 
 
 - title: Skills
