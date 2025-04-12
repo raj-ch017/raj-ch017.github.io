@@ -11,6 +11,8 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <div class="projects">
+<style> h1 {padding-bottom: 0.3rem;} </style>
+My Research Projects
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
