@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>.\ Just a brain trying to learn about itself and it's place in nature.
+subtitle: Just a brain trying to learn about itself and it's place in nature.
 
 profile:
   align: right
