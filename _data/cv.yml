@@ -22,11 +22,14 @@
       description:
         - title: Project 1 - Role of Superior Colliculus in Head Orientation towards Noxious Stimulus
           contents:
+          
             - Utilised transgenic mice and chemogenetic techniques to investigate the role of the Superior Colliculus (SC) in mediating head orientation towards noxious stimuli.
             - Performed stereotaxic injections of Adeno-Associated Viruses (AAVs) to target and manipulate specific neuronal populations within the SC.
             - Used viral tracers to decode the underlying neural circuit.
+            
         - title: Project 2 - Understanding the Role of Edinger-Wesphal Nucleus in Decision-Making under Stress
           contents:
+          
             - Developed and constructed an automated behavioural assay to study decision-making under stress, focusing on the role of the Edinger-Westphal (EW) nucleus.
             - Designed an electronic circuit and implemented Arduino code to enable automated assay control and reliable data collection for accurate behavioural analysis.
             - Piloted and refined the experimental protocol, ensuring its reliability and validity.
@@ -49,19 +52,6 @@
         - Strengthening teaching methodologies and abilities by assisting students in tackling homework assignments successfully.
 
 
-
-
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelore in Technology
-      institution: Future Insitute of Engineering and Management, Kolkata, India
-      year: 2018 - 2022
-      description:
-        - Description 1.
-        - Description 2.
-
-
 - title: Skills
   type: nested_list
   contents:
@@ -79,6 +69,27 @@
       items:
         - Data Analysis (Python)
         - Statistical Analysis (Python, GraphPad Prism)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Technology
+      institution: Future Insitute of Engineering and Management, Kolkata, India
+      year: 2018 - 2022
+
+- title: Volunteering and Extracurricular Activities
+  type: time_table
+  contents:
+    - title: Volunteer for Department Outreach Program
+      institution: Indian Insitute of Science, Bangalore
+      year: Sept 24 - Dec 24
+      description:
+        - Developed and delivered a talk on Introduction to Neuroscience for student audience.
+
+    - title: Neuromatch Academy 2023 | Computational Neuroscience 
+      year: July 2023
+      description:
+        - Collaborated in a group project where we explored the correlation between personality traits’ and brain activation using fMRI decoding  
         
 - title: Academic Interests
   type: list
