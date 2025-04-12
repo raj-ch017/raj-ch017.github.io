@@ -41,6 +41,12 @@ My Research Projects
 
 {% else %}
 
+<!-- Add custom description based on category -->
+{% if category == "work" %}
+  <p>This section contains projects related to work.</p>
+{% elsif category == "fun" %}
+  <p>One of my goals is to learn new things, using online resources like lectures from YouTube, MIT OCW, and courses from EdX and Coursera. This section will track that journey.</p>
+{% endif %}
 <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
