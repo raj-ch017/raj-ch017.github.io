@@ -19,6 +19,13 @@ My Research Projects
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+
+  {% if category == "work" %}
+    <p>This section contains projects related to work.</p>
+  {% elsif category == "fun" %}
+    <p>One of my goals is to learn new things, using online resources like lectures from YouTube, MIT OCW, and courses from EdX and Coursera. This section will track that journey.</p>
+  {% endif %}
+  
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
@@ -42,11 +49,7 @@ My Research Projects
 {% else %}
 
 <!-- Add custom description based on category -->
-{% if category == "work" %}
-  <p>This section contains projects related to work.</p>
-{% elsif category == "fun" %}
-  <p>One of my goals is to learn new things, using online resources like lectures from YouTube, MIT OCW, and courses from EdX and Coursera. This section will track that journey.</p>
-{% endif %}
+
 <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
