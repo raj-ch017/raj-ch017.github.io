@@ -6,11 +6,11 @@
     - name: Current Role
       value: Research Assistant @IISc
     - name: LinkedIn
-      value: tinyurl
+      value: https://www.linkedin.com/in/rajdeep-chakraborty-04a957218/
     - name: Github
-      value: another url
+      value: https://github.com/raj-ch017
     - name: Summary
-      value: this is the thing
+      value: Engineer making my way into Neuroscience, driven by my curiousity to understand the brain.  
 
 
 - title: Experience
@@ -20,26 +20,33 @@
       institution: Indian Institute of Science, Bangalore
       year: Jul 24 - Present
       description:
-        - title: Project 1 - Role of SC in head orientation
+        - title: Project 1 - Role of Superior Colliculus in Head Orientation towards Noxious Stimulus
           contents:
-            - AAV
-            - perfusion
-        - title: Project 2 - EW
+            - Utilised transgenic mice and chemogenetic techniques to investigate the role of the Superior Colliculus (SC) in mediating head orientation towards noxious stimuli.
+            - Performed stereotaxic injections of Adeno-Associated Viruses (AAVs) to target and manipulate specific neuronal populations within the SC.
+            - Used viral tracers to decode the underlying neural circuit.
+        - title: Project 2 - Understanding the Role of Edinger-Wesphal Nucleus in Decision-Making under Stress
           contents:
-            - experimental design
-            - coding
+            - Developed and constructed an automated behavioural assay to study decision-making under stress, focusing on the role of the Edinger-Westphal (EW) nucleus.
+            - Designed an electronic circuit and implemented Arduino code to enable automated assay control and reliable data collection for accurate behavioural analysis.
+            - Piloted and refined the experimental protocol, ensuring its reliability and validity.
 
 
     - title: Technical Editor
       institution: Packt Publishing, India
       year: Oct 23 - Jun 24
       description:
-        - problem solving
-        - working with authors
+        - Executed code snippets and applied problem-solving skills along with research to ensure technical proficiency.
+        - Collaborated with authors, editors and reviewers to maintain the timely delivery of accurate content.
+        - Managed book repositories and addressed customer-reported issues for accuracy and clarity.
 
     - title: Online Mathematics Tutor
       institution: Focus Edumatics, India
       year: Aug 22 - May 23
+      description:
+        - Crafting lesson plans through in-depth exploration of mathematical concepts and utilising the Learning Management System.
+        - Employing problem-solving techniques to address students’ inquiries.
+        - Strengthening teaching methodologies and abilities by assisting students in tackling homework assignments successfully.
 
 
 
@@ -55,19 +62,30 @@
         - Description 2.
 
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python
+        - MATLAB
+    - title: Technical Toolkit
       items:
-        - Description 1.
-        - Description 2.
+        - DeepLabCut
+        - Pandas, Numpy, SciPy, Matplotlib
+        - Microcontrollers
+        - ImageJ
+    - title: Analytical Skills
+      items:
+        - Data Analysis (Python)
+        - Statistical Analysis (Python, GraphPad Prism)
+        
+- title: Academic Interests
+  type: list
+  contents:
+    - Computational Psychiatry, Computational Neuroscience, NeuroPsychology 
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Philosophy, History, Astrophysics
