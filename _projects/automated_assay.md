@@ -2,7 +2,7 @@
 layout: page
 title: Automated Mice Assay
 description: An automated assay to study cost-benefit analysis
-img: assets/img/12.jpg
+img: assets/img/automated_assay.png
 importance: 1
 category: work
 related_publications: false
