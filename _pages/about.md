@@ -24,4 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-WATCH THIS SPACE!
+I am a lifelong learner from India working as a Neuroscience Researcher at Centre for Neuroscience, Indian Institute of Science. I am interested in translating cutting-edge discoveries into real-world applications for healthcare, creating tools that help develop quantitative models for better intervention techniques that can provide us with effective mental health care and treatments.
+
+My overarching goal is to dissolve the boundaries between knowledge and challenge the traditional view of knowledge being categorized and distributed according to training received from a degree. I'm a big believer in open science – if we want to push the boundaries of knowledge and understand our world, we need to collaborate.
