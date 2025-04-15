@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of my cool projects. The more I learn, the more this grows.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -12,7 +12,6 @@ horizontal: false
 <!-- pages/projects.md -->
 <div class="projects">
 <style> h1 {padding-bottom: 0.3rem;} </style>
-My Research Projects
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
@@ -21,9 +20,9 @@ My Research Projects
   </a>
 
   {% if category == "work" %}
-    <p>This section contains projects related to work.</p>
+    <p>Work Projects only.</p>
   {% elsif category == "fun" %}
-    <p>One of my goals is to learn new things, using online resources like lectures from YouTube, MIT OCW, and courses from EdX and Coursera. This section will track that journey.</p>
+    <p>Projects that are an outcome of my learning journey.</p>
   {% endif %}
   
   {% assign categorized_projects = site.projects | where: "category", category %}
