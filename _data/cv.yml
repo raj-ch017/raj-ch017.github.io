@@ -25,14 +25,12 @@
             - Performed stereotaxic injections of Adeno-Associated Viruses (AAVs) to target and manipulate specific neuronal populations within the SC.
             - Used viral tracers to decode the underlying neural circuit.
 
-        - title: "&nbsp;"
-          contents: 
-            - []
+        - title: 
             
-        - title: Project 2 - Understanding the Role of Edinger-Wesphal Nucleus in Decision-Making under Stress<br><br>
+        - title: Project 2 - Automated Mice Assay to Study Decision-Making under Stress<br><br>
           contents:
           
-            - Developed and constructed an automated behavioural assay to study decision-making under stress, focusing on the role of the Edinger-Westphal (EW) nucleus.
+            - Developed and constructed an automated behavioural assay to study decision-making under stress.
             - Designed an electronic circuit and implemented Arduino code to enable automated assay control and reliable data collection for accurate behavioural analysis.
             - Piloted and refined the experimental protocol, ensuring its reliability and validity.
 
