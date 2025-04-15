@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Automated Mice Assay
-description: An automated assay to study cost-benefit analysis
+description: An automated assay to study decision-making under stress
 img: assets/img/automated_assay.png
 importance: 1
 category: work
 related_publications: false
+redirect: /assets/pdf/DM_ppt.pdf
 ---
 
 Every project has a beautiful feature showcase page.
