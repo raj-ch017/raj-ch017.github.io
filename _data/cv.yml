@@ -3,10 +3,8 @@
   contents:
     - name: Full Name
       value: Rajdeep Chakraborty
-    - name: LinkedIn
-      value: https://www.linkedin.com/in/rajdeep-chakraborty-04a957218/
-    - name: Github
-      value: https://github.com/raj-ch017
+    - name: Email
+      value: rajdeep.ch138@gmail.com
     - name: Summary
       value: Engineer making my way into Neuroscience, driven by my curiousity to understand the brain.  
 
@@ -25,9 +23,8 @@
             - Performed stereotaxic injections of Adeno-Associated Viruses (AAVs) to target and manipulate specific neuronal populations within the SC.
             - Used viral tracers to decode the underlying neural circuit.
 
-        - title: 
             
-        - title: Project 2 - Automated Mice Assay to Study Decision-Making under Stress<br><br>
+        - title: Project 2 - Automated Mouse Assay to study Decision-Making under Stress<br><br>
           contents:
           
             - Developed and constructed an automated behavioural assay to study decision-making under stress.
