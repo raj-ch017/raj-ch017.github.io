@@ -2,7 +2,7 @@
 layout: page
 title: Python Case Studies
 description: Application of Python in Research
-img: assets/img/automated_assay.png
+img: assets/img/python_image.jpg
 importance: 1
 category: fun
 related_publications: false
