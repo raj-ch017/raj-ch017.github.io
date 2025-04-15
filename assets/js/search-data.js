@@ -44,6 +44,11 @@ ninja.data = [{
           description: "An automated assay to study cost-benefit analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/automated_assay/";
+            },},{id: "projects-python-case-studies",
+          title: 'Python Case Studies',
+          description: "Application of Python in Research",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/python_case_studies/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
