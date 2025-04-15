@@ -41,7 +41,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-automated-mice-assay",
           title: 'Automated Mice Assay',
-          description: "An automated assay to study cost-benefit analysis",
+          description: "An automated assay to study decision-making under stress",
           section: "Projects",handler: () => {
               window.location.href = "/projects/automated_assay/";
             },},{id: "projects-python-case-studies",
