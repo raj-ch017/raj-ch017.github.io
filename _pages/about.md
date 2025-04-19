@@ -24,6 +24,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a lifelong learner from India working as a Neuroscience Researcher at Centre for Neuroscience, Indian Institute of Science. I am interested in translating cutting-edge discoveries into real-world applications for healthcare, creating tools that help develop quantitative models for better intervention techniques that can provide us with effective mental health care and treatments.
+Absolutely! Here's a polished and engaging version of your "About" section that keeps your voice natural, adds a narrative flow, and highlights your personality and goals:
 
-My overarching goal is to dissolve the boundaries between knowledge and challenge the traditional view of knowledge being categorized and distributed according to training received from a degree. I'm a big believer in open science – if we want to push the boundaries of knowledge and understand our world, we need to collaborate.
+---
+
+**About Me**
+
+Hi, I’m Rajdeep Chakraborty! I am currently working as a Research Assistant at the Indian Institute of Science. My academic journey began in Mechanical engineering, but thanks to a pandemic-fueled binge of brain documentaries and books, I found myself increasingly fascinated by the complexities of the brain.
+
+That curiosity slowly turned into a determined journey to carve a path into Neuroscience. Since then, I’ve been working to bridge my technical background with a deep interest in understanding how the brain works. Along the way, I’ve worked as an online Math tutor and as a Technical Editor for a publishing house.
+
+I’m especially excited about building tools that can translate cutting-edge research into real-world healthcare applications. My focus lies in developing quantitative models and computational methods, particularly using Machine Learning, to improve our understanding of psychiatric conditions and design better mental health interventions.
+
+Apart from that, I enjoy watching Formula 1, reading up on obscure historical facts, diving into philosophical rabbit holes, and learning Mathematics just for the joy of it.
+
+
