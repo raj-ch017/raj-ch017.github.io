@@ -25,7 +25,6 @@ latest_posts:
 ---
 
 
-**About Me**
 
 Hi, I’m Rajdeep Chakraborty! I am currently working as a Research Assistant at the Indian Institute of Science. My academic journey began in Mechanical engineering, but thanks to a pandemic-fueled binge of brain documentaries and books, I found myself increasingly fascinated by the complexities of the brain.
 
