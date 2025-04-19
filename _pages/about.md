@@ -24,9 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Absolutely! Here's a polished and engaging version of your "About" section that keeps your voice natural, adds a narrative flow, and highlights your personality and goals:
-
----
 
 **About Me**
 
