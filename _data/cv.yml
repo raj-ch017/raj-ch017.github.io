@@ -94,10 +94,20 @@
       description:
         - Collaborated in a group project where we explored the correlation between personality traits’ and brain activation using fMRI decoding  
 
+    - title: Fundamentals of Neuroscience | Edx
+      year: May 2023
+      description:
+        - Completed Harvard’s series in Fundamentals of Neuroscience, providing a deep dive into how the brain works, from individual neurons to complex systems, with hands-on learning in neurobiology, data interpretation, and real-world medical scenarios.
+
     - title: Computational Thinking using Python | Edx
       year: Dec 2022
       description:
         - A two-course specialisation provided by MIT on Edx that introduces Python Programming and its utilisation for computational problem solving.
+
+    - title: Using Python for Research | Edx
+      year: Sept 2022
+      description:
+        - Completed an intermediate Python course focused on applying programming skills to research, featuring hands-on case studies and tools for data analysis.
 
         
 - title: Academic Interests
