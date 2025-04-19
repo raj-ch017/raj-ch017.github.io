@@ -83,10 +83,22 @@
       description:
         - Developed and delivered a talk on Introduction to Neuroscience for student audience.
 
+    - title: Quantitative Biology Workshop | Edx
+      year: Dec 2024
+      description:
+        - A course provided by MIT on Edx that teaches application of computational tools like MATLAB, Python, PyMol and R to analyse biological data.
+
+
     - title: Neuromatch Academy 2023 | Computational Neuroscience 
       year: July 2023
       description:
         - Collaborated in a group project where we explored the correlation between personality traits’ and brain activation using fMRI decoding  
+
+    - title: Computational Thinking using Python | Edx
+      year: Dec 2022
+      description:
+        - A two-course specialisation provided by MIT on Edx that introduces Python Programming and its utilisation for computational problem solving.
+
         
 - title: Academic Interests
   type: list
