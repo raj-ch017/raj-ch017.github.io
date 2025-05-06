@@ -6,7 +6,7 @@ img: assets/img/automated_assay.png
 importance: 1
 category: work
 related_publications: false
-redirect: /assets/pdf/DM_ppt.pdf
+redirect: https://docs.google.com/presentation/d/1Fu83q5RRfNSrUpR8kO0EHiGRxu_OUm8t/edit?slide=id.p1#slide=id.p1
 ---
 
 Every project has a beautiful feature showcase page.
