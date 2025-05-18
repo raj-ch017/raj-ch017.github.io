@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-portfolio",
+          title: "portfolio",
+          description: "A collection of my learning portfolio",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/https:/certifications-3.gitbook.io/rajdeeps-portfolio";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "This page contains my latest curriculum vitae. You can take a look by scrolling through this page, or download a copy by clicking on the top pdf download button.",
