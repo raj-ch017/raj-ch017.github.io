@@ -1,7 +1,7 @@
 ---
 layout: page
 title: portfolio
-permalink: /portfolio/
+permalink: [/portfolio/](https://certifications-3.gitbook.io/rajdeeps-portfolio)
 description: A collection of my learning portfolio
 nav: true
 nav_order: 4
