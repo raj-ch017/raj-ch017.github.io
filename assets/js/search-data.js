@@ -46,12 +46,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-automated-mice-assay",
-          title: 'Automated Mice Assay',
-          description: "An automated assay to study decision-making under stress",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/automated_assay/";
-            },},{id: "projects-python-case-studies",
+          section: "News",},{id: "projects-python-case-studies",
           title: 'Python Case Studies',
           description: "Application of Python in Research",
           section: "Projects",handler: () => {
