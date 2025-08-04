@@ -16,21 +16,10 @@
       institution: Indian Institute of Science, Bangalore
       year: Jul 24 - Apr 25
       description:
-        - title: Project 1 - Role of Superior Colliculus in Head Orientation towards Noxious Stimulus<br><br>
-          contents:
-          
-            - Utilised transgenic mice and chemogenetic techniques to investigate the role of the Superior Colliculus (SC) in mediating head orientation towards noxious stimuli.
-            - Performed stereotaxic injections of Adeno-Associated Viruses (AAVs) to target and manipulate specific neuronal populations within the SC.
-            - Used viral tracers to decode the underlying neural circuit.
-
-            
-        - title: Project 2 - Automated Mouse Assay to study Decision-Making under Stress<br><br>
-          contents:
-          
-            - Developed and constructed an automated behavioural assay to study decision-making under stress.
-            - Designed an electronic circuit and implemented Arduino code to enable automated assay control and reliable data collection for accurate behavioural analysis.
-            - Piloted and refined the experimental protocol, ensuring its reliability and validity.
-
+        - Conducted statistical analysis on experimental data and presented the findings in a scientific format.
+        - Led the design and implementation of experiments exploring the relationship between stress and decision-making, and orientation towards painful stimuli.
+        - Effectively managed purchase order placements by ensuring prompt execution under deadlines.
+        - Volunteered for Department Outreach Program and delivered talks on 'Introduction to Neuroscience' to student audience.
 
     - title: Technical Editor
       institution: Packt Publishing, India
@@ -40,13 +29,13 @@
         - Collaborated with authors, editors and reviewers to maintain the timely delivery of accurate content.
         - Managed book repositories and addressed customer-reported issues for accuracy and clarity.
 
-    - title: Online Mathematics Tutor
+    - title: Data Analyst
       institution: Focus Edumatics, India
       year: Aug 22 - May 23
       description:
-        - Crafting lesson plans through in-depth exploration of mathematical concepts and utilising the Learning Management System.
-        - Employing problem-solving techniques to address students’ inquiries.
-        - Strengthening teaching methodologies and abilities by assisting students in tackling homework assignments successfully.
+        - Analyzed student tutoring data to evaluate performance trends, maintaining a 4.9/5 average KPI rating.
+        - Built Excel dashboards and automated recurring reports using Python, reducing manual effort by 50%.
+        - Collaborated with operations to drive data-informed decisions on scheduling, feedback, and quality improvement.
 
 
 - title: Skills
@@ -62,10 +51,13 @@
         - Pandas, Numpy, SciPy, Matplotlib
         - Microcontrollers
         - ImageJ
+        - GraphPad Prism
     - title: Analytical Skills
       items:
-        - Data Analysis (Python)
-        - Statistical Analysis (Python, GraphPad Prism)
+        - Data Analysis
+        - Statistical Analysis
+        - Inferential & Descriptive Statistics
+        - Statistical Modeling
 
 - title: Education
   type: time_table
