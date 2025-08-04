@@ -51,6 +51,11 @@ ninja.data = [{
           description: "Application of Python in Research",
           section: "Projects",handler: () => {
               window.location.href = "/projects/python_case_studies/";
+            },},{id: "projects-task-fmri-analysis",
+          title: 'Task-fMRI Analysis',
+          description: "Predicting Personality Traits from Cognitive Task Performance",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/task_fmri/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
