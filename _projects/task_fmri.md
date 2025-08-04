@@ -2,11 +2,11 @@
 layout: page
 title: Task-fMRI Analysis
 description: Predicting Personality Traits from Cognitive Task Performance
-img: assets/img/python_image.jpg
+img: assets/img/task_fMRI.png
 importance: 1
 category: fun
 related_publications: false
-redirect: https://raj-ch017.github.io/python-case-studies/intro.html
+redirect: assets/pdf/project_presentations.pdf
 ---
 
 Every project has a beautiful feature showcase page.
