@@ -6,7 +6,7 @@ img: assets/img/task_fMRI.png
 importance: 1
 category: fun
 related_publications: false
-redirect: assets/pdf/project_presentations.pdf
+redirect: assets/pdf/project_presentation.pdf
 ---
 
 Every project has a beautiful feature showcase page.
