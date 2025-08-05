@@ -26,9 +26,9 @@ latest_posts:
 
 
 
-Hi, I’m Rajdeep Chakraborty! I am currently working as a Research Assistant at the Indian Institute of Science. My academic journey began in Mechanical engineering, but thanks to a pandemic-fueled binge of brain documentaries and books, I found myself increasingly fascinated by the complexities of the brain.
+Hello, I’m Rajdeep Chakraborty! My journey began in Mechanical engineering, but thanks to a pandemic-fueled binge of brain documentaries and books, I found myself increasingly fascinated by the complexities of the brain.
 
-The fascination slowly turned into a determined journey to carve a path into Neuroscience. Since then, I’ve been working to bridge my Engineering background with a deep interest in understanding how the brain works. Along the way, I’ve worked as an online Math tutor and as a Technical Editor for a publishing house.
+The fascination slowly turned into a determined journey to carve a path into Neuroscience. Since then, I’ve been working to bridge my Engineering background with a deep interest in understanding how the brain works. Along the way, I’ve worked as a Data Analyst and as a Technical Editor for a publishing house.
 
 I’m especially excited about building tools that can translate cutting-edge research into real-world healthcare applications. My focus lies in developing quantitative models and computational methods, particularly using Machine Learning, to improve our understanding of psychiatric conditions and design better mental health interventions.
 
