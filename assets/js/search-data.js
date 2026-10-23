@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This page contains my latest curriculum vitae. You can take a look by scrolling through this page, or download a copy by clicking on the top pdf download button.",
+          description: "Mechanical engineer turned computational neuroscience researcher. Scientific trainee at EMBL Rome. View my latest CV below or download it as a PDF.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
