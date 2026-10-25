@@ -1,0 +1,230 @@
+# -----------------------------------------------------------------------------
+# The Journey timeline (page: /journey/)
+#
+# One entry per milestone. The page sorts them by `start`, so the order in this
+# file does not matter. To add a milestone, copy any entry and change it.
+#
+#   id        short unique name, no spaces (also used for links: /journey/#neuromatch)
+#   title     what it is
+#   org       provider / employer / institution
+#   period    text shown on the card, e.g. "Jul 2023" or "Feb 2026 – present"
+#   start     sort key as "YYYY-MM" (in quotes). Decides year group and order
+#   strand    maths | programming | brain | career
+#   summary   one line, always visible
+#   points    optional list shown when the card is opened
+#   applied   optional: what you did with it
+#   cert      optional: path to a certificate (PDF or image), e.g.
+#             assets/certificates/my-course.pdf
+# -----------------------------------------------------------------------------
+
+# ----------------------------------- 2026 -------------------------------------
+
+- id: embl-rome
+  title: Scientific Trainee
+  org: EMBL Rome
+  period: Feb 2026 – present
+  start: "2026-02"
+  strand: career
+  summary: Leading the analysis of a project, from tracking behaviour in video to modelling how decisions are made under uncertainty.
+  points:
+    - Lead the analysis for the project.
+    - Built a DeepLabCut pipeline for markerless tracking of behaviour from video.
+    - Model decision-making under uncertainty with partially observable Markov decision processes (POMDPs).
+
+- id: embl-python-course
+  title: Python course helper
+  org: EMBL (EMBL-wide course)
+  period: 2026 April
+  start: "2026-04"
+  strand: career
+  summary: Online helper for a 3-day Python course open to the whole of EMBL.
+
+# ----------------------------------- 2025 -------------------------------------
+
+# ----------------------------------- 2024 -------------------------------------
+
+- id: qbio
+  title: Quantitative Biology Workshop (7.QBWx)
+  org: MITx on edX
+  period: Dec 2024
+  start: "2024-12"
+  strand: programming
+  summary: Computational tools (MATLAB, Python, PyMOL and R) for analysing biological data.
+  cert: assets/certificates/mitx-quantitative-biology.pdf
+
+- id: iisc
+  title: Research Assistant
+  org: Indian Institute of Science, Bangalore
+  period: Jul 2024 – Apr 2025
+  start: "2024-07"
+  strand: career
+  summary: Part of a team of three running experiments on stress, decision-making and responses to painful stimuli.
+  points:
+    - Helped design and run experiments on stress and decision-making, and on orientation towards painful stimuli.
+    - Carried out the statistical analysis and presented the findings in a scientific format.
+    - Handled purchase orders under tight deadlines.
+    - Volunteered for the department outreach programme, giving talks on "Introduction to Neuroscience" to students.
+
+# ----------------------------------- 2023 -------------------------------------
+
+- id: packt
+  title: Technical Editor
+  org: Packt Publishing, India
+  period: Oct 2023 – Jun 2024
+  start: "2023-10"
+  strand: career
+  summary: Made sure code and technical content in programming books were correct and clear.
+  points:
+    - Ran code snippets and researched problems to confirm technical accuracy.
+    - Worked with authors, editors and reviewers to deliver accurate content on time.
+    - Managed book repositories and resolved issues reported by readers.
+
+- id: neuromatch
+  title: Computational Neuroscience
+  org: Neuromatch Academy
+  period: Jul 2023
+  start: "2023-07"
+  strand: brain
+  summary: Modelling approaches for understanding how the brain works, from neurons to decisions.
+  points:
+    - Intro to modelling.
+    - Machine learning, from generalised linear models to dimensionality reduction and deep learning.
+    - Dynamical systems, with biologically inspired models of neurons and networks.
+    - Stochastic processes, including Bayesian inference and decisions under uncertainty.
+    - Network causality.
+  applied: A group project predicting personality traits from task-fMRI activity.
+  cert: assets/certificates/neuromatch-computational-neuroscience.pdf
+
+- id: harvardx-neuro
+  title: Fundamentals of Neuroscience
+  org: HarvardX on edX
+  period: May 2023
+  start: "2023-05"
+  strand: brain
+  summary: Neural signalling, brain structure, sensation and perception, and how the brain drives decisions and behaviour.
+
+- id: calculus-integration
+  title: Single Variable Calculus – Integration (18.01x)
+  org: MITx on edX
+  period: Mar 2023
+  start: "2023-03"
+  strand: maths
+  summary: Integrals as areas under graphs, techniques for computing them, and applications from beam stress to rocket distance.
+
+# ----------------------------------- 2022 -------------------------------------
+
+- id: scripting-python
+  title: Introduction to Scripting in Python
+  org: Coursera
+  period: Dec 2022
+  start: "2022-12"
+  strand: programming
+  summary: Python 3 scripting for everyday tasks, including data analysis, visualisation and debugging.
+
+- id: computational-thinking
+  title: Computational Thinking using Python
+  org: MITx on edX
+  period: Dec 2022
+  start: "2022-12"
+  strand: programming
+  summary: Computation, algorithms, testing, debugging and algorithmic complexity, taught through Python.
+
+- id: python-for-research
+  title: Using Python for Research
+  org: HarvardX on edX
+  period: Sep 2022
+  start: "2022-09"
+  strand: programming
+  summary: A bridge from basic to advanced Python through research-oriented tools and case studies.
+  applied: My Python case studies Jupyter Book.
+
+- id: calculus-differentiation
+  title: Single Variable Calculus – Differentiation (18.01x)
+  org: MITx on edX
+  period: Aug 2022
+  start: "2022-08"
+  strand: maths
+  summary: Derivatives, graph sketching, approximations and optimisation.
+
+- id: focus-edumatics
+  title: Online Mathematics Tutor
+  org: Focus Edumatics, India [Remote]
+  period: Aug 2022 – May 2023
+  start: "2022-08"
+  strand: career
+  summary: My first job! My role involved tutoring kids on maths. It was challenging in a fun way since I had to come up with various ways of explaining topics to help solve doubts.
+  points:
+    - Analysed tutoring data to track performance trends, keeping a 4.9/5 average KPI rating.
+    - Built Excel dashboards and automated recurring reports in Python, cutting manual effort by 50%.
+    - Worked with operations on scheduling, feedback and quality decisions.
+
+- id: programming-python
+  title: Programming in Python
+  org: Coursera
+  period: Apr 2022
+  start: "2022-04"
+  strand: programming
+  summary: From the basics to object-oriented design, PyGame and recursion.
+
+# ----------------------------------- 2021 -------------------------------------
+
+- id: python-crash-course
+  title: Crash Course on Python
+  org: Coursera
+  period: Dec 2021
+  start: "2021-12"
+  strand: programming
+  summary: Python fundamentals, with no prior programming needed.
+
+- id: math-thinking-cs
+  title: Mathematical Thinking in Computer Science
+  org: Coursera
+  period: Nov 2021
+  start: "2021-11"
+  strand: maths
+  summary: Up next, I wanted a taste of abstract maths. Specifically, I was looking for topics that could be applied in programming and that's how I ended up taking this course.
+
+- id: precalculus
+  title: Precalculus through Data and Modelling
+  org: Coursera
+  period: Oct 2021
+  start: "2021-10"
+  strand: maths
+  summary: Continuing my work on my mathematical skills, next up was this three-course specialisation that introduced precalculus topics.
+
+- id: matlab
+  title: Introduction to MATLAB
+  org: Coursera
+  period: Oct 2021
+  start: "2021-10"
+  strand: programming
+  summary: A first step into programming with MATLAB.
+
+- id: algebra
+  title: "Algebra: Elementary to Advanced"
+  org: Coursera
+  period: Sep 2021
+  start: "2021-09"
+  strand: maths
+  summary: I had identified a problem - my mathematics was weak. As a way of solving that problem, I enrolled myself in this three-course specialisation.
+
+# ----------------------------------- 2020 -------------------------------------
+
+- id: spark
+  title: The spark
+  org: COVID-19 Pandemic, 2020
+  period: 2020
+  start: "2020-04"
+  strand: brain
+  summary: A pandemic-fuelled binge of brain documentaries, combined with tons of self-reflection, turned my attention back to the brain. This time, I couldn't resist the pull, let my curiosity lead me, and it became my entry point into neuroscience.
+
+# ----------------------------------- 2018 -------------------------------------
+
+- id: btech
+  title: Bachelor of Technology in Mechanical Engineering
+  org: Maulana Abul Kalam Azad University of Technology (MAKAUT), Kolkata
+  period: 2018 – 2022
+  start: "2018-08"
+  strand: career
+  summary: Shared a keen interest in Physics and Psychology. Initially, I wanted to pursue a degree in Psychology but circumstances
+          led me towards engineering. Mechanical seemed applied Physics in disguise, so I chose it.

@@ -1,0 +1,85 @@
+---
+layout: page
+title: journey
+permalink: /journey/
+description: From mechanical engineering to computational neuroscience. The courses, tools and roles along the way.
+nav: true
+nav_order: 4
+---
+
+{%- assign entries = site.data.journey | sort: "start" | reverse -%}
+{%- assign years = entries | group_by_exp: "e", "e.start | slice: 0, 4" -%}
+
+<div class="jr" id="jr">
+  <div class="jr-controls">
+    <div class="jr-filters" role="group" aria-label="Filter the timeline">
+      <button type="button" class="jr-chip is-active" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="jr-chip" data-filter="maths" aria-pressed="false">Maths</button>
+      <button type="button" class="jr-chip" data-filter="programming" aria-pressed="false">Programming</button>
+      <button type="button" class="jr-chip" data-filter="brain" aria-pressed="false">Brain science</button>
+      <button type="button" class="jr-chip" data-filter="career" aria-pressed="false">Career &amp; education</button>
+    </div>
+    <button type="button" class="jr-order" id="jr-order" aria-pressed="false">Show oldest first</button>
+  </div>
+
+  <div class="jr-timeline" id="jr-timeline">
+    {%- for year in years %}
+      <section class="jr-year" data-year="{{ year.name }}">
+        <h2 class="jr-year-label">{{ year.name }}</h2>
+        <div class="jr-items">
+          {%- for e in year.items %}
+            {%- case e.strand -%}
+              {%- when "maths" -%}{%- assign strand_label = "Maths" -%}
+              {%- when "programming" -%}{%- assign strand_label = "Programming" -%}
+              {%- when "brain" -%}{%- assign strand_label = "Brain science" -%}
+              {%- else -%}{%- assign strand_label = "Career & education" -%}
+            {%- endcase %}
+            <details class="jr-card" id="{{ e.id }}" data-strand="{{ e.strand }}">
+              <summary>
+                <span class="jr-dot" aria-hidden="true"></span>
+                <span class="jr-meta">
+                  <span class="jr-strand">{{ strand_label | escape }}</span>
+                  <span class="jr-when">{{ e.period | escape }}</span>
+                </span>
+                <span class="jr-title">{{ e.title | escape }}</span>
+                <span class="jr-org">{{ e.org | escape }}</span>
+                <span class="jr-summary">{{ e.summary | escape }}</span>
+              </summary>
+              {%- if e.points or e.applied or e.cert %}
+                <div class="jr-body">
+                  {%- if e.points %}
+                    <p class="jr-body-label">{% if e.strand == "career" %}What I did{% else %}What it covered{% endif %}</p>
+                    <ul>
+                      {%- for p in e.points %}
+                        <li>{{ p | escape }}</li>
+                      {%- endfor %}
+                    </ul>
+                  {%- endif %}
+                  {%- if e.applied %}
+                    <p class="jr-applied"><span class="jr-body-label">Applied in</span> {{ e.applied | escape }}</p>
+                  {%- endif %}
+                  {%- if e.cert %}
+                    <button type="button" class="jr-cert-btn" data-cert="{{ e.cert | relative_url }}" data-cert-title="{{ e.title | escape }}">
+                      View certificate
+                    </button>
+                  {%- endif %}
+                </div>
+              {%- endif %}
+            </details>
+          {%- endfor %}
+        </div>
+      </section>
+    {%- endfor %}
+  </div>
+</div>
+
+<dialog id="jr-dialog" class="jr-dialog" aria-labelledby="jr-dialog-title">
+  <div class="jr-dialog-bar">
+    <span id="jr-dialog-title" class="jr-dialog-title"></span>
+    <a id="jr-dialog-open" href="#" target="_blank" rel="noopener">Open in new tab</a>
+    <button type="button" id="jr-dialog-close" aria-label="Close certificate">&times;</button>
+  </div>
+  <div id="jr-dialog-body" class="jr-dialog-content"></div>
+</dialog>
+
+<script defer src="{{ '/assets/js/journey.js' | relative_url }}"></script>

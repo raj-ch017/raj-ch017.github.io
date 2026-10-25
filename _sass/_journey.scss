@@ -1,0 +1,416 @@
+/*******************************************************************************
+ * Journey timeline (page: /journey/)
+ * Written as plain CSS on purpose. Colours come from the variables defined in
+ * _custom.scss (--strand-maths, --strand-programming, --strand-brain).
+ ******************************************************************************/
+
+:root {
+  --strand-career: #a21caf;
+}
+
+html[data-theme="dark"] {
+  --strand-career: #e9a8f5;
+}
+
+/* ----------------------------- controls ----------------------------------- */
+
+.jr-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.jr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.jr-chip,
+.jr-order,
+.jr-cert-btn {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 0.5rem 0.85rem;
+  color: var(--global-text-color);
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.jr-chip::before {
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.45rem;
+  border-radius: 50%;
+  background: var(--chip, var(--global-text-color-light));
+}
+
+.jr-chip[data-filter="all"]::before {
+  display: none;
+}
+
+.jr-chip[data-filter="maths"] {
+  --chip: var(--strand-maths);
+}
+
+.jr-chip[data-filter="programming"] {
+  --chip: var(--strand-programming);
+}
+
+.jr-chip[data-filter="brain"] {
+  --chip: var(--strand-brain);
+}
+
+.jr-chip[data-filter="career"] {
+  --chip: var(--strand-career);
+}
+
+.jr-chip:hover,
+.jr-order:hover,
+.jr-cert-btn:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.jr-chip.is-active {
+  border-color: var(--global-theme-color);
+  background: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+}
+
+.jr-chip:focus-visible,
+.jr-order:focus-visible,
+.jr-cert-btn:focus-visible,
+.jr-card summary:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+/* ----------------------------- timeline ----------------------------------- */
+
+.jr-timeline,
+.jr-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.jr-timeline.is-reversed,
+.jr-timeline.is-reversed .jr-items {
+  flex-direction: column-reverse;
+}
+
+.jr-year {
+  margin-bottom: 1.5rem;
+}
+
+.jr-year[hidden],
+.jr-card[hidden] {
+  display: none;
+}
+
+.jr-year-label {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.jr-items {
+  margin-left: 6px;
+  padding-left: 1.6rem;
+  border-left: 2px solid var(--global-divider-color);
+}
+
+/* ------------------------------ cards ------------------------------------- */
+
+.jr-card {
+  --strand: var(--global-theme-color);
+  position: relative;
+  margin-bottom: 0.9rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid var(--strand);
+  border-radius: 12px;
+}
+
+.jr-card[data-strand="maths"] {
+  --strand: var(--strand-maths);
+}
+
+.jr-card[data-strand="programming"] {
+  --strand: var(--strand-programming);
+}
+
+.jr-card[data-strand="brain"] {
+  --strand: var(--strand-brain);
+}
+
+.jr-card[data-strand="career"] {
+  --strand: var(--strand-career);
+}
+
+.jr-card:target {
+  border-color: var(--strand);
+}
+
+.jr-card summary {
+  display: block;
+  position: relative;
+  padding: 0.95rem 2.6rem 1rem 1.15rem;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 12px;
+}
+
+.jr-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.jr-card summary::after {
+  content: "";
+  position: absolute;
+  top: 1.35rem;
+  right: 1.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid var(--global-text-color-light);
+  border-bottom: 2px solid var(--global-text-color-light);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.jr-card[open] summary::after {
+  transform: rotate(-135deg);
+  top: 1.55rem;
+}
+
+.jr-card summary:hover .jr-title {
+  color: var(--global-theme-color);
+}
+
+/* the dot sits on the rail */
+.jr-dot {
+  position: absolute;
+  left: calc(-1.6rem - 12px);
+  top: 1.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--strand);
+  box-shadow: 0 0 0 4px var(--global-bg-color);
+}
+
+.jr-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.9rem;
+  margin-bottom: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.jr-strand {
+  color: var(--strand);
+  text-transform: uppercase;
+}
+
+.jr-when {
+  color: var(--global-text-color-light);
+}
+
+.jr-title {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--global-text-color);
+}
+
+.jr-org {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.jr-summary {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--global-text-color);
+}
+
+.jr-body {
+  padding: 0 1.15rem 1.1rem;
+  border-top: 1px dashed var(--global-divider-color);
+  margin: 0 0.4rem;
+  padding-top: 0.9rem;
+}
+
+.jr-body-label {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.jr-body ul {
+  margin: 0 0 0.9rem;
+  padding-left: 1.2rem;
+  font-size: 0.93rem;
+}
+
+.jr-body li {
+  margin-bottom: 0.2rem;
+}
+
+.jr-applied {
+  margin: 0 0 0.9rem;
+  font-size: 0.93rem;
+}
+
+.jr-applied .jr-body-label {
+  display: inline;
+  margin-right: 0.4rem;
+}
+
+.jr-cert-btn {
+  color: var(--strand);
+  border-color: var(--strand);
+}
+
+.jr-cert-btn:hover {
+  background: var(--strand);
+  border-color: var(--strand);
+  color: var(--global-bg-color);
+}
+
+/* ---------------------------- certificate viewer -------------------------- */
+
+.jr-dialog {
+  width: min(960px, 94vw);
+  height: min(88vh, 1000px);
+  padding: 0;
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.jr-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.jr-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.jr-dialog-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.65rem 0.9rem 0.65rem 1.1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+}
+
+.jr-dialog-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.jr-dialog-bar a {
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+#jr-dialog-close {
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 0 0.4rem;
+  color: var(--global-text-color-light);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#jr-dialog-close:hover {
+  color: var(--global-theme-color);
+}
+
+.jr-dialog-content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-bg-color);
+}
+
+.jr-dialog-content iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.jr-dialog-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* -------------------------------- phones ---------------------------------- */
+
+@media (max-width: 575px) {
+  .jr-items {
+    padding-left: 1.1rem;
+  }
+
+  .jr-dot {
+    left: calc(-1.1rem - 12px);
+  }
+
+  .jr-card summary {
+    padding: 0.85rem 2.4rem 0.9rem 0.95rem;
+  }
+
+  .jr-order {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jr-card summary::after,
+  .jr-chip,
+  .jr-order,
+  .jr-cert-btn {
+    transition: none;
+  }
+}
