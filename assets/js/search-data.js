@@ -16,16 +16,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-portfolio",
-          title: "portfolio",
-          description: "A collection of my learning portfolio",
+        },{id: "nav-journey",
+          title: "journey",
+          description: "From mechanical engineering to computational neuroscience. The courses, tools and roles along the way.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/https:/certifications-3.gitbook.io/rajdeeps-portfolio";
+            window.location.href = "/journey/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Mechanical engineer turned computational neuroscience researcher. Scientific trainee at EMBL Rome. View my latest CV below or download it as a PDF.",
+          description: "A formal listing of all the things I have done so far!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
