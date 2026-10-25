@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: <p> scientific trainee </p> <p> EMBL Rome, Italy </p>
+  more_info: <p> 📷 Giving a presentation on ‘Introduction to Neuroscience’ to undergraduate students. The focus wasn’t on ‘what an axon is’ but on the field's evolution from Galen to modern neuroscience. </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

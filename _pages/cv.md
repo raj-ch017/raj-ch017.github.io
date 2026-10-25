@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-description: Mechanical engineer turned computational neuroscience researcher. Scientific trainee at EMBL Rome. View my latest CV below or download it as a PDF.
+description: A formal listing of all the things I have done so far!  
 ---
 
 {% assign cv_url = '/assets/pdf/cv.pdf' | relative_url %}

@@ -1,0 +1,188 @@
+/*******************************************************************************
+ * Custom look for raj-ch017.github.io
+ * Loaded last (see assets/css/main.scss), so it overrides the theme defaults.
+ * To tweak the palette, edit the variables in the two blocks below.
+ ******************************************************************************/
+
+// -----------------------------------------------------------------------------
+// Palette
+// -----------------------------------------------------------------------------
+
+:root {
+  // light mode: warm paper, deep teal accent
+  --global-bg-color: #fafaf7;
+  --global-card-bg-color: #ffffff;
+  --global-text-color: #1b2430;
+  --global-text-color-light: #5b6675;
+  --global-theme-color: #166534;
+  --global-hover-color: #14532d;
+  --global-hover-text-color: #ffffff;
+  --global-divider-color: rgba(27, 36, 48, 0.12);
+  --global-code-bg-color: #f0efe9;
+  --global-footer-bg-color: transparent;
+  --global-footer-text-color: #5b6675;
+  --global-footer-link-color: #166534;
+
+  // one colour per learning strand (used by the Journey timeline)
+  --strand-maths: #b45309;
+  --strand-programming: #2f5fd0;
+  --strand-brain: #0f766e;
+
+  --font-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+html[data-theme="dark"] {
+  // dark mode: ink background, signal-teal accent
+  --global-bg-color: #0b0f14;
+  --global-card-bg-color: #121821;
+  --global-text-color: #d7dde5;
+  --global-text-color-light: #8b97a6;
+  --global-theme-color: #4ade80;
+  --global-hover-color: #86efac;
+  --global-hover-text-color: #0b0f14;
+  --global-divider-color: #232c38;
+  --global-code-bg-color: #161d27;
+  --global-footer-bg-color: transparent;
+  --global-footer-text-color: #8b97a6;
+  --global-footer-link-color: #4ade80;
+
+  --strand-maths: #f5b971;
+  --strand-programming: #8ab4ff;
+  --strand-brain: #5eead4;
+}
+
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.card-title {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+.post-header .post-title {
+  font-weight: 600;
+}
+
+// the subtitle under your name
+.post-header .desc {
+  color: var(--global-theme-color);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+}
+
+// adding formatting to the About text
+@media (min-width: 576px){
+  .profile + .clearfix {
+    display: flow-root;
+  }
+}
+
+.profile .more-info,
+.caption {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+code,
+pre {
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+}
+
+// -----------------------------------------------------------------------------
+// Navbar, footer, links
+// -----------------------------------------------------------------------------
+
+.navbar.navbar-light {
+  background-color: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--global-divider-color);
+  box-shadow: none;
+}
+
+footer {
+  background: transparent !important;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.85rem;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+// -----------------------------------------------------------------------------
+// Profile photo, cards, buttons, social icons
+// -----------------------------------------------------------------------------
+
+.profile img {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px !important;
+  box-shadow: none !important;
+}
+
+.card {
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.post .btn {
+  background: transparent;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 8px;
+  box-shadow: none;
+  text-transform: none;
+  letter-spacing: 0;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    background: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+}
+
+.social .contact-icons a i::before {
+  color: var(--global-text-color-light);
+}
+
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+// -----------------------------------
+// project cards
+// -----------------------------------
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center;
+}
